@@ -15,7 +15,7 @@ class _RoutesState extends State<Routes> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Karan Emlak | Otomotiv ',
-      initialRoute: '/homepage',
+      initialRoute: '/login',
       routes: {
         '/login': (context) => const LoginPage(),
         '/homepage': (context) => const HomePage(),

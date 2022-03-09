@@ -20,9 +20,7 @@ class _LoginPageState extends State<LoginPage> {
             inputField(_emailController, 'yil'),
             inputField(_passwordController, 'km'),
             InkWell(
-              onTap: () {
-                topla(3,4,dorduncu: 5);
-              },
+              onTap: () {},
               child: const Text('Buton'),
             )
           ],
@@ -50,9 +48,5 @@ class _LoginPageState extends State<LoginPage> {
         ),
       ),
     );
-  }
-
-  topla(int birinci,int ikinci, {String? ucuncu, int? dorduncu}) {
-
   }
 }
