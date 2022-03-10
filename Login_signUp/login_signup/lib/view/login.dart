@@ -17,8 +17,8 @@ class _LoginPageState extends State<LoginPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            inputField(_emailController, 'yil'),
-            inputField(_passwordController, 'km'),
+            inputField(_emailController, 'email'),
+            inputField(_passwordController, 'password'),
             InkWell(
               onTap: () {},
               child: const Text('Buton'),
